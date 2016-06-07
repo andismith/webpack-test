@@ -1,6 +1,10 @@
 import $ from 'jquery';
 
-import Button from './components/button';
+if (document.querySelectorAll('a').length) {
+    require.ensure([], () => {
+        const Button = require('./components/button').default;
+        const button = new Button('example.com');
 
-const button = new Button('example.com');
-button.render('a');
+        button.render('a');
+    }, 'button');
+}
