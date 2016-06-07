@@ -1,6 +1,8 @@
 # Webpack
 
-Repo for testing out Webpack.
+Repo for testing out Webpack for future projects.
+
+![What is Webpack](https://webpack.github.io/assets/what-is-webpack.png)
 
 Following along from [https://blog.madewithlove.be/post/webpack-your-bags/]
 
