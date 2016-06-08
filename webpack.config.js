@@ -13,7 +13,7 @@ module.exports = {
       name: 'main', // name of dependencies file
       children:  true, // look for common dependencies in all children,
       minChunks: 2 // number of repeats
-    }, 'common.js'),
+    }),
   ],
   module: {
     loaders: [
